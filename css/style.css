@@ -9,34 +9,36 @@
     margin: auto;
     padding: 50px;
 }
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-evenly;
+    position: relative;
+    margin-top: 26px;
 }
-.parent{
-    border: 1px solid;
-    border-radius: 30px;
+.parent {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
     text-align: center;
-    transform: rotate(45deg);
     height: 310px;
-    width: 100px;
-    position: relative ;
+    transform: rotate(45deg);
+    border-radius: 20px;
 }
-.box{
+.box {
     transform: rotate(-45deg);
     width: 100%;
     height: 100%;
-    position: absolute;
-    margin: 0px 10px;
 }
 /* COMMON CSS END */
 
 /* OUR SERVICES START */
-#our_services{
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 56%, rgba(43,145,217,1) 56%);
+#our_services {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 53%, rgba(43,145,217,1) 53%);
+    height: 100vh;
 }
 .heading{
     text-align: center;
@@ -61,24 +63,36 @@ h4{
     color: #2b91d9;
     font-size: 15px;
 }
-.car_insurance{
+.car_insurance {
     width: 33%;
     background-color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: -130px;
 }
-.home_insurance{
+.home_insurance {
     width: 33%;
     background-color: aliceblue;
+    position: absolute;
 }
-.cash_in_save{
+.cash_in_save {
     width: 33%;
     background-color: aliceblue;
+    position: absolute;
+    right: -130px;
 }
-.engineering_insurance{
+.engineering_insurance {
     width: 33%;
     background-color: aliceblue;
+    position: absolute;
+    top: 267px;
+    right: 89px;
 }
-.shippingr_insurance{
+.shippingr_insurance {
     width: 33%;
     background-color: aliceblue;
+    position: absolute;
+    top: 267px;
+    left: 89px;
 }
-/* OUR SERVICES START */
+/* OUR SERVICES END */
